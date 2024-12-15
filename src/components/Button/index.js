@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Button = ({onclick, creditValue, currentCredits}) => {
+const Button = ({ onclick, creditValue, currentCredits }) => {
   return (
     <button
       onClick={onclick}
@@ -9,6 +9,6 @@ const Button = ({onclick, creditValue, currentCredits}) => {
       {creditValue} Credits
     </button>
   );
-}
+};
 
 export default Button;
